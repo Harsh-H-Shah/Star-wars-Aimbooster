@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="menupage">
-        <div class="playbtn">
-            Play
-        </div>
-    </div>
-    <div class="cursor">
-        <img src="./img/aim_PNG62.png" alt="">
-    </div>
-    <div class="targetbox" draggable="false">
-        <img class="target" src="./img/starwars_PNG47.png" alt="">
-        <img class="explosion" src="./img/explosion_PNG15401.png" alt="">
-    </div>
-    <div class="score">
-    </div>
-    <div class="timer">
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <audio src="sound/damage.wav" class="damage"></audio>
-    <audio src="sound/shoot.wav" class="shoot"></audio>
-    <div class="highscore">HighScore 0</div>
+		<script defer src="/static/js/script.js"></script>
 
-    <script src="./script.js"></script>
-</body>
+		<link rel="stylesheet" href="/static/css/style.css" />
+
+		<title>Star Wars</title>
+	</head>
+
+	<body>
+		<div class="menupage">
+			<div class="playbtn">Play</div>
+		</div>
+
+		<div class="cursor">
+			<img src="/static/img/aim_PNG62.png" />
+		</div>
+
+		<div class="targetbox" draggable="false">
+			<img class="target" src="/static/img/starwars_PNG47.png" />
+			<img class="explosion" src="/static/img/explosion_PNG15401.png" />
+		</div>
+
+		<div class="score"></div>
+
+		<div class="timer"></div>
+
+		<audio src="/static/sound/damage.wav" class="damage"></audio>
+		<audio src="/static/sound/shoot.wav" class="shoot"></audio>
+
+		<div class="highscore">HighScore 0</div>
+	</body>
 </html>
