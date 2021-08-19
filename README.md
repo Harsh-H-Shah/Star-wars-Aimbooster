@@ -1,4 +1,7 @@
-# [Star-wars-Aimbooster](https://harsh010501.github.io/Star-wars-Aimbooster/)
-This is an aimbooster game with star wars theme made using HTML, CSS, Javascript.
+# Star-wars-Aimbooster
 
-It displays current score, highscore saved on local storage and time left.
+Hosted at https://harsh010501.github.io/Star-wars-Aimbooster
+
+This is an Aimbooster game with a Star Wars theme made using HTML, CSS and JavaScript.
+
+It displays the current score, the highscore (saved in Local Storage) and the time left.
