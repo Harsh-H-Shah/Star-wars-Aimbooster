@@ -1,6 +1,6 @@
 # Star-wars-Aimbooster
 
-Hosted at https://harsh010501.github.io/Star-wars-Aimbooster
+Hosted at https://harsh-h-shah.github.io/Star-wars-Aimbooster/
 
 This is an Aimbooster game with a Star Wars theme made using HTML, CSS and JavaScript.
 
